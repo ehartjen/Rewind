@@ -19,6 +19,8 @@ function getWord() {
 
     //pass the original and reversed words to the display function
     displayResults(word, revWord);
+
+
 };
 
 //this function does the "work" of the app, reversing a string
@@ -50,6 +52,9 @@ function displayResults(word, revWord) {
     output.innerText = `You entered the word ${word}. Reversed is ${revWord}`;
 
 };
+
+//test code
+
 
 //Notes for TacoCat/Palindrome
 //Basic completion is reversing the word and comparing it to the original - print if word equals reverse word yes or no
